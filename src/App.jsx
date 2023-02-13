@@ -1,14 +1,12 @@
-import { useState } from 'react';
-import './App.css';
-import { Message } from './func-components/Message';
+// import { Form } from "./components/FormClass/Form"
+
+import { Form } from './components/Form/Form';
 
 export const App = () => {
-  const [message, setMessage] = useState('some message')
-
   return (
-    <div className="App">
-      <Message text={message} />
+    <div>
+      <h1>React App</h1>
+      <Form />
     </div>
   );
-}
-
+};
