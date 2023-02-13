@@ -1,7 +1,7 @@
 import { memo, useState } from 'react';
 
 export const Child = memo(
-  ({}) => {
+  () => {
     const [count, setCount] = useState(0);
     console.log('render child');
 
