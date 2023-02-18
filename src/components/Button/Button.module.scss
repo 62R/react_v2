@@ -1,0 +1,18 @@
+.button {
+  padding: 5px 15px;
+  width: fit-content;
+  align-self: flex-end;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+
+
+  transition: background-color 0.5s, box-shadow 0.5s;
+  background-color: #90ee90;
+  box-shadow: 0px 0px 5px #90ee90;
+
+  &_disabled {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(210, 210, 210);
+  }
+}

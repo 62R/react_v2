@@ -1,0 +1,41 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: white;
+
+  &_align {
+    &_bot {
+      align-items: flex-start;
+    }
+
+    &_you {
+      align-items: flex-end;
+    }
+  }
+
+  &_margin {
+    &_sameauthor {
+      margin-top: 5px;
+    }
+
+    &_otherauthor {
+      margin-top: 10px;
+    }
+  }
+
+  &_order_first {
+    margin-top: 0px;
+  }
+}
+
+.author {
+  margin: 0;
+  font-weight: bold;
+}
+
+.text {
+  margin: 0;
+}
