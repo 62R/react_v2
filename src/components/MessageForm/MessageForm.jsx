@@ -18,16 +18,14 @@ export const MessageForm = ({ submitFn }) => {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    if (!buttonState) {
-      submitFn(author, text);
-      setText('');
-      setTextValid(true);
-    }
+    submitFn(author, text);
+    setText('');
+    setTextValid(true);
   };
 
-  const changeAuthor = (evt) => {
-    setAuthor(evt.target.value);
-    setAuthorValid(checkValidation(evt.target.value));
+  const changeAuthor = (value) => {
+    setAuthor(value);
+    setAuthorValid(checkValidation(value));
   };
 
   const changeText = (evt) => {

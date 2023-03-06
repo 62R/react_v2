@@ -1,6 +1,17 @@
+import { useState } from 'react';
 import style from './Input.module.scss';
 
-export const Input = ({ value, handleChange, isValid, placeholder }) => {
+export const Input = ({
+  value,
+  handleChange = () => null,
+  isValid = true,
+  placeholder = 'Input some text',
+}) => {
+  const [val, setVal] = useState(value);
+  const handleInput = (evt) => {
+    setVal(evt.target.value);
+    handleChange(evt.target.value);
+  };
   const classList = [style.input];
   if (!isValid) {
     classList.push(style.input_valid_false);
@@ -8,8 +19,8 @@ export const Input = ({ value, handleChange, isValid, placeholder }) => {
   return (
     <input
       type="text"
-      value={value}
-      onChange={handleChange}
+      value={val}
+      onChange={handleInput}
       placeholder={placeholder}
       className={classList.join(' ')}
     />

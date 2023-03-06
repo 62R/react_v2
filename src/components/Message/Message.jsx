@@ -1,6 +1,11 @@
 import styles from './Message.module.scss';
 
-export const Message = ({ author, text, isOtherAuthor, isFirstMessage }) => {
+export const Message = ({
+  author,
+  text,
+  isOtherAuthor = true,
+  isFirstMessage = false,
+}) => {
   const isBot = author === 'Bot';
   const classList = [styles.message];
   isBot

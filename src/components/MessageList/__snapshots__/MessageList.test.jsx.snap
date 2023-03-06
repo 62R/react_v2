@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea render component with spanshot 1`] = `
+<DocumentFragment>
+  <div
+    class="messagelist"
+  >
+    <div
+      class="message message_align_bot message_margin_otherauthor message_order_first"
+    >
+      <p
+        class="author"
+      >
+         Bot 
+      </p>
+      <p
+        class="text"
+      >
+         Test1 
+      </p>
+    </div>
+    <div
+      class="message message_align_you message_margin_otherauthor"
+    >
+      <p
+        class="author"
+      >
+         Tom 
+      </p>
+      <p
+        class="text"
+      >
+         Test2 
+      </p>
+    </div>
+    <div
+      class="message message_align_you message_margin_sameauthor"
+    >
+      <p
+        class="text"
+      >
+         Test3 
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

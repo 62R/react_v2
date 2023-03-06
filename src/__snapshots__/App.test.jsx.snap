@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input render component with spanshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      React App
+    </h1>
+    <div
+      class="wrapper"
+    >
+      <div
+        class="messagelist"
+      >
+        <div
+          class="message message_align_bot message_margin_otherauthor message_order_first"
+        >
+          <p
+            class="author"
+          >
+             Bot 
+          </p>
+          <p
+            class="text"
+          >
+             Wait a massage 
+          </p>
+        </div>
+      </div>
+      <form
+        class="form"
+      >
+        <input
+          class="input"
+          placeholder="Enter your name"
+          type="text"
+          value=""
+        />
+        <textarea
+          class="textarea"
+          placeholder="Write some message"
+        />
+        <button
+          class="button button_disabled"
+          disabled=""
+        >
+          Push
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

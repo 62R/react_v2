@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageForm render component with snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="form"
+  >
+    <input
+      class="input"
+      placeholder="Enter your name"
+      type="text"
+      value=""
+    />
+    <textarea
+      class="textarea"
+      placeholder="Write some message"
+    />
+    <button
+      class="button button_disabled"
+      disabled=""
+    >
+      Push
+    </button>
+  </form>
+</DocumentFragment>
+`;

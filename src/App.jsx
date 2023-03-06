@@ -10,14 +10,6 @@ export const App = () => {
       author: 'Bot',
       text: 'Wait a massage',
     },
-    {
-      author: 'Tom',
-      text: 'Hi, Bot',
-    },
-    {
-      author: 'Tom',
-      text: 'How are you?',
-    },
   ]);
 
   useEffect(() => {
