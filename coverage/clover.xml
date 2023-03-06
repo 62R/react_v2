@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678123615860" clover="3.2.0">
+  <project timestamp="1678123615860" name="All files">
+    <metrics statements="70" coveredstatements="70" conditionals="28" coveredconditionals="28" methods="20" coveredmethods="20" elements="118" coveredelements="118" complexity="0" loc="70" ncloc="70" packages="7" files="7" classes="7"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="App.jsx" path="C:\Users\myPC\project\react_v2\src\App.jsx">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Button">
+      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="Button.jsx" path="C:\Users\myPC\project\react_v2\src\components\Button\Button.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="73" type="stmt"/>
+        <line num="5" count="73" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="63" type="stmt"/>
+        <line num="8" count="73" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Input">
+      <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <file name="Input.jsx" path="C:\Users\myPC\project\react_v2\src\components\Input\Input.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="77" type="stmt"/>
+        <line num="11" count="77" type="stmt"/>
+        <line num="12" count="25" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="15" count="77" type="stmt"/>
+        <line num="16" count="77" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="77" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Message">
+      <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="Message.jsx" path="C:\Users\myPC\project\react_v2\src\components\Message\Message.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="20" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.MessageForm">
+      <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <file name="MessageForm.jsx" path="C:\Users\myPC\project\react_v2\src\components\MessageForm\MessageForm.jsx">
+        <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="72" type="stmt"/>
+        <line num="9" count="72" type="stmt"/>
+        <line num="11" count="72" type="stmt"/>
+        <line num="12" count="72" type="stmt"/>
+        <line num="13" count="72" type="stmt"/>
+        <line num="15" count="72" type="stmt"/>
+        <line num="16" count="61" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="72" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="26" count="72" type="stmt"/>
+        <line num="27" count="21" type="stmt"/>
+        <line num="28" count="21" type="stmt"/>
+        <line num="31" count="72" type="stmt"/>
+        <line num="32" count="26" type="stmt"/>
+        <line num="33" count="26" type="stmt"/>
+        <line num="36" count="72" type="stmt"/>
+        <line num="37" count="47" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="45" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="72" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.MessageList">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="MessageList.jsx" path="C:\Users\myPC\project\react_v2\src\components\MessageList\MessageList.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Textarea">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Textarea.jsx" path="C:\Users\myPC\project\react_v2\src\components\Textarea\Textarea.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="73" type="stmt"/>
+        <line num="5" count="73" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="73" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

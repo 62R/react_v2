@@ -1,6 +1,6 @@
 import style from './Button.module.scss';
 
-export const Button = ({ label, handleClick = null, disabled }) => {
+export const Button = ({ label, handleClick, disabled = false }) => {
   const classList = [style.button];
   if (disabled) {
     classList.push(style.button_disabled);
